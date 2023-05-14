@@ -46,6 +46,8 @@ const Imgmeme = () => {
                 <p className="mt-5 h1 text-center">{textmeme}</p>
                 <img src={`../images/${imgmeme}.jpg`} alt="meme" className="figure-img mt-3 d-block m-auto" />
             </figure>
+
+            <button onClick={descarga} type="button" className="btn btn-success" >Descara tu meme</button>
         </div>
     )
 }
